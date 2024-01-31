@@ -859,7 +859,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .projet a {
   text-decoration: none;
-  color: black;
+  color: #063970;
   font-weight: 600;
   margin: 0 2px;
   position: relative;
@@ -891,6 +891,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: uppercase;
     border-bottom: 1px solid #e5ebf2;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .language {
@@ -910,4 +911,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-left: 15px; 
     color: grey; 
     text-transform: uppercase;
+}
+
+.logo {
+    width: 16px;
+    height: auto; 
 }
