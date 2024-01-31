@@ -852,4 +852,37 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+
+.projet {
+  margin: 0px auto;
+  width: 500px;
+}
+
+.projet a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+  margin: 0 2px;
+  position: relative;
+}
+
+.projet a:before {
+  position: absolute;
+  margin: 0 auto;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  content: '';
+  opacity: .3;
+  -webkit-transform: scaleX(.9);
+  transition-property: opacity, -webkit-transform;
+  transition-duration: .3s;
+}
+
+.projet a:hover:before {
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+}
