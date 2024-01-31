@@ -855,14 +855,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .projet {
   margin: 0px auto;
-  width: 500px;
 }
 
 .projet a {
   text-decoration: none;
-  font-size: 14px;
-  color: #000;
-  font-weight: 300;
+  color: black;
+  font-weight: 600;
   margin: 0 2px;
   position: relative;
 }
@@ -885,4 +883,31 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .projet a:hover:before {
   opacity: 1;
   -webkit-transform: scaleX(1);
+}
+
+.subpart {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5ebf2;
+    text-align: center;
+}
+
+.language {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around; /* Adjusts the spacing between elements */
+    align-items: center;
+}
+
+.language h5 {
+    margin: 0; /* Removes default margin */
+    padding: 0 10px; /* Adds padding on the sides for spacing */
+}
+
+.team {
+    margin-left: 15px; 
+    color: grey; 
+    text-transform: uppercase;
 }
