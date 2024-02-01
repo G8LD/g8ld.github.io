@@ -257,7 +257,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063970;}
     font-size: 16px;
     color: #999fb3;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
 }
 .single-about-add-info {
     margin: 35px 0;
@@ -329,8 +328,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #063970;}
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
-    padding-top:  50px;
+    border-top: 1px solid #e5ebf2;
+    padding: 50px 0 0;
 }
 .education-horizontal-timeline {
     padding: 80px 0;
@@ -439,7 +438,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 50px 0 100px;
+    padding: 50px 0 0;
     border-top: 1px solid #e5ebf2;
 }
 .experience-content {padding-top: 100px;}
@@ -595,7 +594,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         9. Portfolio
 --------------------------------------*/
 .portfolio {
-    padding:  50px 0 100px;
+    padding:  50px 0 0;
     border:  1px solid #e5ebf2;
 }
 
@@ -899,6 +898,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     justify-content: space-around; /* Adjusts the spacing between elements */
     align-items: center;
+    padding-bottom: 25px;
 }
 
 .language h5 {
@@ -918,12 +918,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .card {
-    margin-top: 50px;
+    margin-bottom: 80px;
     border: none;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
-}
-
-.image {
-    padding: 5%;
+    padding: 50px;
 }
